@@ -38,7 +38,6 @@ def total_gross(source)
   grand_total = 0
   index = 0
   while index < directors_earnings.length do
-    
     grand_total += directors_earnings[directors_names[index]]
     index+=1
   end
