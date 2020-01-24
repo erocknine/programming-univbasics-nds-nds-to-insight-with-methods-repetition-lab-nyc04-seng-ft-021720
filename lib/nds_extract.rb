@@ -36,7 +36,7 @@ def total_gross(source)
   over_total = 0
   index = 0
   while index < source.length do
-    over_total += source[:name][index]
+    over_total += source[index][:name]
     index+=1
   end
   over_total
