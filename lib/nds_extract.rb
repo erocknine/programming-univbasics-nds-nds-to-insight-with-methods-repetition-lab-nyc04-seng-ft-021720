@@ -34,6 +34,7 @@ end
 
 def total_gross(source)
   hash_directors = directors_totals(source)
+  
   over_total = 0
   index = 0
   while index < hash_directors.length do
