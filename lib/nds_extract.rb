@@ -38,4 +38,4 @@ def total_gross(source)
   # return the total
 end
 
-
+puts directors_totals
