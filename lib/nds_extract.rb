@@ -33,7 +33,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-
+  
 end
 
   # Write this implementation
