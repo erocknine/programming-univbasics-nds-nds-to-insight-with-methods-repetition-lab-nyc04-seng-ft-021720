@@ -23,10 +23,10 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  list = {}
+  list = []
   index = 0
   while index < source.length do
-    list[:name] = source[index]
+    list.push(source[:name][index])
     index+=1
   end
   list
